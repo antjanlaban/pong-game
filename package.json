@@ -1,9 +1,9 @@
 {
   "name": "pong-game",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "",
+  "description": "Moderne neon-retro Pong (1P-vs-AI + 2P-lokaal) — vanilla TS + Canvas 2D.",
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "vitest run",

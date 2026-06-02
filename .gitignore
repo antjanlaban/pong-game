@@ -36,3 +36,7 @@ bun-debug.log*
 
 # /auto run-state (ephemeer)
 .labtech-auto/
+
+# LabTech promote/gate tooling-output (audit, run-state) — geen game-source
+werkmap/
+.labtech-auto/

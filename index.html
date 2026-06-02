@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pong — Neon Retro</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: #06060c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      #game {
+        width: min(100vw, calc(100vh * 16 / 9));
+        height: auto;
+        aspect-ratio: 16 / 9;
+        box-shadow: 0 0 60px #a855f733;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

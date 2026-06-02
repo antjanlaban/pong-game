@@ -18,6 +18,12 @@ bun run typecheck
 bun run check
 ```
 
+## Run & verify
+
+- Dev gates: `bun run typecheck`, `bun run check`, `bun run test`.
+- Play: serve the folder statically (`bunx serve .`) and open the page. If the browser refuses to execute `src/main.ts` directly, bundle first: `bun build src/main.ts --outfile=dist/main.js` and point `index.html` at `./dist/main.js`.
+- Acceptance: walk `docs/superpowers/acceptance/2026-06-01-pong-acceptance.md`.
+
 ## LabTech-werkstroom
 
 Deze repo gebruikt [LabTech](https://github.com/) — zie `CLAUDE.md` en `.claude/labtech.json` voor tier-info.
